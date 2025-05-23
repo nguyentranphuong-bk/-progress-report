@@ -38,7 +38,7 @@
         <div class="cart-container">
             <h2>Giỏ hàng của bạn</h2>
             <asp:Repeater ID="rptCart" runat="server">
-                <ItemTemplate>
+                <ItemTemplate> 
                     <div class="cart-item">
                         <img src='<%# Eval("ImagePath") %>' alt='<%# Eval("ProductName") %>' />
                         <div>
